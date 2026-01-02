@@ -1,4 +1,47 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Inconsolata', monospace;
 }
+
+/* header */
+
+header {
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 20px 10%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+}
+
+.embaucher {
+    background-color: #4169E1;
+    padding: 8px 15px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.embaucher:hover {
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2)
+}
+
+/* fin header */
