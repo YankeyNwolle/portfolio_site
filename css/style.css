@@ -64,3 +64,48 @@ nav ul li a {
 }
 
 /* fin header */
+
+/* section developper */
+
+.developper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 90px 15%;
+}
+
+.developper h6,
+.developper h1,
+.developper p {
+  flex: 1 1 auto; 
+  min-width: 0; 
+}
+
+.developper h6 {
+  font-size: 1.2em;
+  color: #4169E1;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  
+}
+
+.developper h1 {
+  font-size: 3.2em;
+  margin-bottom: 10px;
+}
+
+.developper img {
+  width: 500px;
+  max-width: 60%;
+  height: auto;
+  border-radius: 10px;
+  margin-left: auto; 
+}
+
+.developper p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555555;
+}
+
+/* fin section developper */
