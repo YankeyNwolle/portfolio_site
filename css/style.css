@@ -18,6 +18,7 @@ header {
     top: 0;
     text-transform: capitalize;
     font-size: 16px;
+    z-index: 1000;
 }
 
 .logo {
@@ -168,3 +169,57 @@ nav ul li a {
 }
 
 /* section competences */
+
+.competences {
+    text-align: center;
+    padding: 60px 15%;
+}
+
+.competences h2 {
+    font-size: 2.5em;
+    color: #333333;
+    font-weight: bold;
+}
+
+.competences p {
+    font-size: 1.2em;
+    color: #666666;
+    margin-top: 10px;
+}
+
+.conteneur_flex {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.frontend {
+    flex: 1;
+    text-align: left;
+}
+
+.backend {
+    flex: 1;
+    text-align: left;
+}
+
+.conteneur_flex h3 {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}
+
+.frontend h6,
+.backend h6 {
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+}
+
+.progress {
+    height: 8px;
+    margin-bottom: 20px;
+}
