@@ -92,6 +92,8 @@ nav ul li a {
   color: #4169E1;
   margin-bottom: 10px;
   border-radius: 5px;
+  background-color:  #3b82f61a;
+  padding: 10px;
   
 }
 
@@ -383,3 +385,21 @@ nav ul li a {
     cursor: pointer;
 
 }
+
+/* footer */
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15%;
+}       
+footer p {
+    color: #666666;
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+/* responsive */
