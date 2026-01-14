@@ -386,6 +386,10 @@ nav ul li a {
 
 }
 
+textarea {
+    resize: none;
+}
+
 /* footer */
 footer {
     background-color: #f1f1f1;
